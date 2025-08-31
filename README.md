@@ -22,7 +22,7 @@ The Transformer architecture, while powerful, scales quadratically with sequence
 
 The core of our model is the `GAMBlock`, which replaces the traditional multi-head self-attention layer.
 
-![GAM Block Diagram](assets/gam_block.png)
+![GAM Block Diagram](gam_block_diagram.png)
 > **Figure 1:** The input `x` is normalized and then processed by two parallel pathways. The Local Pathway uses a Causal 1D Convolution, while the Global Pathway queries a learnable Memory Bank. The outputs are dynamically combined by a learned gate and added to the residual connection, followed by a standard FFN.
 
 ## Installation
