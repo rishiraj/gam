@@ -1,0 +1,6 @@
+torch
+datasets
+tokenizers
+mamba-ssm
+wandb
+tqdm
