@@ -1,6 +1,6 @@
 # Gated Associative Memory: A Parallel O(N) Architecture for Efficient Sequence Modeling
 
-[![arXiv](https://img.shields.io/badge/arXiv-submit/6751280-b31b1b.svg)](https://arxiv.org/abs/submit/6751280) <!-- Replace with final arXiv ID when available -->
+[![arXiv](https://img.shields.io/badge/arXiv-2509.00605-b31b1b.svg)](https://arxiv.org/abs/2509.00605)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Made with PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 
@@ -158,10 +158,13 @@ Key takeaways:
 ## Citation
 If you find this work useful in your research, please consider citing our paper:
 ```bibtex
-@article{acharya2025gam,
-  title={{Gated Associative Memory: A Parallel O(N) Architecture for Efficient Sequence Modeling}},
-  author={Acharya, Rishiraj},
-  journal={arXiv preprint arXiv:submit/6751280},
-  year={2025}
+@misc{acharya2025gatedassociativememoryparallel,
+      title={Gated Associative Memory: A Parallel O(N) Architecture for Efficient Sequence Modeling}, 
+      author={Rishiraj Acharya},
+      year={2025},
+      eprint={2509.00605},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.00605}, 
 }
 ```
